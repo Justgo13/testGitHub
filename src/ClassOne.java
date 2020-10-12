@@ -1,5 +1,10 @@
 public class ClassOne {
-    public ClassOne() {
-        
+    private int number;
+    public ClassOne(int number) {
+        this.number = number;
+    }
+
+    public int getNumber() {
+        return number;
     }
 }
