@@ -11,4 +11,8 @@ public class ClassOne {
     public void setNumber(int number) {
         this.number = number;
     }
+
+    public void addNumber(int number) {
+        this.number += number;
+    }
 }
