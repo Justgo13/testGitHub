@@ -12,6 +12,10 @@ public class ClassOne {
         this.number = number;
     }
 
+    public void printNumber() {
+        System.out.println("Your number is: " + number);
+    }
+
     public void addNumber(int number) {
         this.number += number;
     }
